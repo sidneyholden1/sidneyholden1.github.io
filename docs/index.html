@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sidney Holden, Flatiron Research Fellow. Physical networks and pattern formation through PDE modeling and numerical simulation.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Sidney Holden</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <h1 class="site-name"><a class="wordmark" href="#main" aria-label="Sidney Holden, home">Sidney Holden</a></h1>
+    <nav aria-label="Main navigation">
+      <a href="#research">Research</a>
+      <a href="#papers">Papers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="intro" aria-label="About Sidney Holden">
+      <figure class="portrait">
+        <img src="assets/media/sidney-holden.jpg" alt="Sidney Holden" width="1154" height="1154" fetchpriority="high">
+      </figure>
+      <div class="intro-text">
+        <p>I am a Flatiron Research Fellow in the Flatiron Institute’s <a href="https://www.simonsfoundation.org/flatiron/computational-biology/">Center for Computational Biology</a>, where I am part of the <a href="https://www.simonsfoundation.org/flatiron/computational-biology/biological-transport-networks/">Biological Transport Networks Group</a>. I received my PhD from the University of Edinburgh in 2024. I am interested in a variety of problems in physical networks and pattern formation. I approach these problems through a combination of PDE modeling and numerical simulation.</p>
+        <div class="profile-links" aria-label="Profile links">
+          <a href="mailto:sholden@flatironinstitute.org">Email <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/sidneyholden1">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://www.simonsfoundation.org/people/sidney-holden/">Flatiron profile <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section" aria-labelledby="research-title">
+      <div class="section-heading">
+        <h2 id="research-title">Research</h2>
+      </div>
+
+      <article class="research-item" aria-labelledby="continuum-title">
+        <div class="research-copy">
+          <h3 id="continuum-title" class="research-heading">Continuum theories for quantum graphs</h3>
+          <p>Dense networks span multiple scales. We develop continuum descriptions that connect microscopic network geometry to macroscopic differential equations. The aim is to understand how waves and diffusion on a network emerge as effective behavior across the space it occupies.</p>
+          <a class="text-link" href="https://arxiv.org/abs/2301.07086">Read the preprint <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="research-media">
+          <figure class="research-animation sphere-animation">
+            <video controls muted loop playsinline preload="none" poster="assets/media/spherical-network-poster.png" width="464" height="452" aria-label="Eigenmodes of a spherical network" aria-describedby="simulation-caption">
+              <source src="assets/media/spherical-network.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="assets/media/spherical-network.mp4">Download the simulation.</a>
+            </video>
+            <figcaption id="simulation-caption">Eigenmodes of a spherical network</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article class="research-item research-item-wide" aria-labelledby="adaptation-title">
+        <div class="research-copy">
+          <h3 id="adaptation-title" class="research-heading">Network formation</h3>
+          <p>Transport networks adapt and remodel depending on the flow they carry. We study how the feedback between flow and conductivity can create spatial structure. Our recent preprint identifies a finite-wavelength instability in a continuum model of adaptive transport. It provides a physical mechanism for the joint selection of transport capacity and network density.</p>
+          <a class="text-link" href="https://arxiv.org/abs/2605.16130">Read the preprint <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="research-media">
+          <figure class="research-animation flux-animation">
+            <video controls muted loop playsinline preload="none" poster="assets/media/network-flux-poster.png?v=2" width="1280" height="330" aria-label="Vertical flux during transport network formation, with simulation time">
+              <source src="assets/media/network-flux.mp4?v=2" type="video/mp4">
+              Your browser does not support embedded video. <a href="assets/media/network-flux.mp4">Download the flux animation.</a>
+            </video>
+          </figure>
+        </div>
+      </article>
+
+      <article class="research-item research-item-wide" aria-labelledby="methods-title">
+        <div class="research-copy">
+          <h3 id="methods-title" class="research-heading">Numerical methods</h3>
+          <p>To enable large, general PDE solving on networks, we are developing a distributed solver for differential equations on physical networks in <a href="https://dedalus-project.org/">Dedalus</a>. We develop a distributional calculus for differential equations on edges and coupling conditions at the vertices. This work connects mathematical models to simulations on larger networks, including nonlinear wave dynamics and biological transport.</p>
+          <p class="work-status">Manuscript in preparation</p>
+        </div>
+        <div class="research-media">
+          <figure class="research-animation nls-animation">
+            <video controls muted loop playsinline preload="none" poster="assets/media/nls-sphere-lead-poster.png?v=3" width="1280" height="600" aria-label="Focusing NLS: a wave packet travels along a lead into a spherical network, with pulse magnitude shown as shaded thickness">
+              <source src="assets/media/nls-sphere-lead.mp4?v=3" type="video/mp4">
+              Your browser does not support embedded video. <a href="assets/media/nls-sphere-lead.mp4">Download the NLS animation.</a>
+            </video>
+          </figure>
+        </div>
+      </article>
+
+    </section>
+
+    <section id="papers" class="section papers" aria-labelledby="papers-title">
+      <div class="section-heading">
+        <h2 id="papers-title">Papers &amp; preprints</h2>
+      </div>
+      <ol class="paper-list">
+        <li>
+          S. Holden, M. C. Morrell, G. Vasil, and E. Katifori. Length-scale selection in adaptive transport networks. <em>Under review</em>, (2026). (<a href="https://arxiv.org/abs/2605.16130">arXiv</a>)
+        </li>
+        <li>
+          S. Holden and G. Vasil. A continuum limit for dense spatial networks. <em>Under review</em>, (2025). (<a href="https://arxiv.org/abs/2301.07086">arXiv</a>)
+        </li>
+      </ol>
+    </section>
+
+    <section id="contact" class="section contact" aria-labelledby="contact-title">
+      <div>
+        <h2 id="contact-title">Contact</h2>
+      </div>
+      <div class="contact-details">
+        <a class="email" href="mailto:sholden@flatironinstitute.org">sholden@flatironinstitute.org <span aria-hidden="true">↗</span></a>
+        <p>Center for Computational Biology<br>Flatiron Institute · New York</p>
+        <div class="profile-links">
+          <a href="https://github.com/sidneyholden1">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://www.simonsfoundation.org/people/sidney-holden/">Flatiron profile <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap site-footer">
+    <span>Sidney Holden</span>
+    <a href="#main">Back to top <span aria-hidden="true">↑</span></a>
+  </footer>
+</body>
+</html>

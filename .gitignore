@@ -1,0 +1,24 @@
+# Bulk content and dependencies live on Ceph.
+/data
+/runs
+/results
+/job_caches
+/environments
+/build
+/archive
+/caches
+.venv*
+**/__pycache__/
+*.py[cod]
+**/node_modules/
+**/.lake/
+dist/
+
+# Local cluster configuration, editorial records, and delivery packages.
+/.codex/
+/.rusty-project.json
+/AGENTS.md
+/cluster/
+/planning/
+*.zip
+.DS_Store
